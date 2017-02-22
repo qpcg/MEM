@@ -137,3 +137,4 @@ GpcmMEM <- function (data, anchor, anchor.param = NULL,constraint = c("gpcm","1P
   class(fit) <- "gpcm"
   fit
 }
+
