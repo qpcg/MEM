@@ -9,8 +9,7 @@
 #' @param IRT.param Logical indicating whether to use IRT parameterization
 #' @param trace Interger specifcying progress of optimization routine
 #' @keywords add one here
-#' @export
-#' #@examples
+#' @export 
 #' GpcmMEM()
 
 GpcmMEM <- function (data, anchor, anchor.param = NULL,constraint = c("gpcm","1PL","rasch"),hess = F, IRT.param = TRUE, start.val = NULL, na.action = NULL, trace = T,control = list()) {
